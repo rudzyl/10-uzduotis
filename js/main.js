@@ -5,4 +5,9 @@ const ats = vidurkis(duomenys);
 
 //is pateiktu 4 skaiciu, vidurkis gaunasi: 6
 
-console.log(`is pateiktu ${duomenys.length} skaiciu, vidurkis gaunasi: ${ats}`);
+const atsString = `is pateiktu ${duomenys.length} skaiciu, vidurkis gaunasi: ${ats}`;
+
+
+const atsDOM = document.querySelector('#ats');
+
+atsDOM.innerText = atsString;
